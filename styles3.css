@@ -45,15 +45,18 @@ h1 {
 span {
     margin-top: .5rem;
     color: var(--Green);
-    font-size: .8rem;
+    font-size: .75rem;
+    font-weight: 600;
 }
 
 p {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     font-size: .75rem;
+    font-weight: 400;
 }
 
 ul {
+    margin-top: .7rem;
     list-style: none;
     width: 100%;
     display: flex;
@@ -63,7 +66,7 @@ ul {
 }
 
 li {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     background-color: var(--Grey700);
     border-radius: .3rem;
     padding: .6rem;
@@ -71,4 +74,17 @@ li {
     text-align: center;
     font-size: .7rem;
     font-weight: 600;
+    transition: .2s;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+li:hover {
+    cursor: pointer;
+    color: var(--Grey900);
+    background: var(--Green); 
 }
